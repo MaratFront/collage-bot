@@ -1,0 +1,132 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #121212;
+  color: white;
+  margin: 0;
+  padding: 0;
+}
+
+button,
+a,
+option,
+select {
+  cursor: pointer;
+}
+
+.container {
+  max-width: 400px;
+  margin: 0 auto;
+  padding: 20px 0 20px 0;
+  background-color: #393954;
+  border-radius: 20px;
+}
+
+.header {
+  text-align: center;
+  margin-bottom: 20px;
+  display: flex;
+  justify-content: center;
+  background-color: #393954;
+}
+.header .container {
+  padding: 0;
+}
+.header__option {
+  color: white;
+  background-color: #2d2d58;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.header select {
+  font-size: 18px;
+  padding: 10px;
+  color: #fff;
+  background: none;
+  border: none;
+  border-radius: 10px;
+  outline: none;
+}
+
+.schedule {
+  text-align: center;
+  padding-bottom: 20px;
+  background-color: #24293e;
+  border-radius: 20px 20px 0 0;
+}
+.schedule__title {
+  padding: 13px;
+  margin: 0;
+}
+.schedule__hr {
+  width: 210px;
+  height: 1px;
+  background-color: #8ebbff;
+  margin: 0 auto;
+}
+
+.schedule p {
+  padding: 13px 0;
+  color: #a7a7c1;
+  border-radius: 20px;
+  margin: 0;
+}
+
+.days {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  background-color: #24293e;
+  margin-bottom: 30px;
+}
+
+.day {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #2d2d58;
+  border-radius: 30px;
+  padding: 5px 15px 7px 7px;
+  cursor: pointer;
+}
+.day-oval {
+  border-radius: 100%;
+  height: 31px;
+  width: 31px;
+  background-color: #24293e;
+}
+
+.day-number {
+  font-size: 18px;
+  background-color: #8ebbff;
+  width: 53px;
+  height: 53px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  color: #fff;
+}
+
+.day-name {
+  font-size: 18px;
+}
+
+.nav-icons {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 30px;
+}
+
+.nav-icon {
+  text-align: center;
+}
+
+.nav-icon img {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background-color: #2d2d58;
+  padding: 10px;
+  cursor: pointer;
+}/*# sourceMappingURL=site.css.map */
